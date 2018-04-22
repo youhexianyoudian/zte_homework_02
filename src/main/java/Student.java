@@ -35,4 +35,9 @@ public class Student {
     public void setScore(double score) {
         this.score = score;
     }
+
+        @Override
+    public String toString() {
+        return  id +","+ name + ","+ age +"," + score ;
+    }
 }
